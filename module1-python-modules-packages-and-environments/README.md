@@ -48,3 +48,6 @@ Explore [PyPI](https://pypi.org), the Python Package Index - this is where
 `pipenv` build on) gets things from by default. If you're interested in
 publishing your own Python packages, you should sign up for an account at
 [test PyPI](https://test.pypi.org/), and play around!
+
+*Note* - if you're publishing `lambdata`, it is suggested you title your
+package `lambdata-yourusername` to avoid conflicts with others.
