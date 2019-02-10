@@ -46,4 +46,5 @@ that will help you debug and fix real issues in professional situations.
 Explore [PyPI](https://pypi.org), the Python Package Index - this is where
 `pip` (the official base Python package installer, which both Anaconda and
 `pipenv` build on) gets things from by default. If you're interested in
-publishing your own Python packages, sign up for an account!
+publishing your own Python packages, you should sign up for an account at
+[test PyPI](https://test.pypi.org/), and play around!
