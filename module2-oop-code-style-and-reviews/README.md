@@ -9,11 +9,18 @@
 
 ## Before Lecture
 
+Read the [official Python Class
+tutorial](https://docs.python.org/3/tutorial/classes.html), and try to reproduce
+the examples in your own Python environment.
+
 Read the [PEP 8 style guide](https://pep8.org/), and then look back at code
 you've written in the past. Identify at least three times you did something the
 style guide says you shouldn't, and write the corrected version.
 
 ## Live Lecture Task
+
+We will first live code a class based on class request/discussion, brainstorming
+what fields and methods make sense. We will then discuss style more broadly.
 
 Style matters - but we're engineers, which means we're a little lazy. Let's set
 up tools to check style automatically, so we fix issues before they hit review.
@@ -25,7 +32,9 @@ is a safe time to do it (and good practice for the assignment!).
 ## Assignment
 
 First, revisit your code from yesterday - was it stylistic? Run a style check
-(as shown in lecture) and correct any issues you see.
+(as shown in lecture) and correct any issues you see. Also, refactor your code
+to use at least 1 class - remember, be DRY (Don't Repeat Yourself), not WET
+(Write Every Time)!
 
 Then - code review! Pair with another student (PMs will facilitate, especially
 in case of odd numbers), and share your `lambdata` repo with each other. Read
@@ -51,3 +60,6 @@ understand. Good code isn't clever - it's clear!
 Many organizations create their own "flavor" of style guides - for an example,
 read the
 [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
+
+And if you get through all the above - make `lambdata` better! Implement 2 more
+helper functions, and/or refactor your code to be more object-oriented.
