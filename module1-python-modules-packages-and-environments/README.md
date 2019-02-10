@@ -42,3 +42,8 @@ and see if you can make sense of it. Try to find the actual logic behind
 specific functions you use (e.g. `pd.DataFrame`, `df.replace`, etc.). Reading
 source code is challenging, especially from large codebases, but it's a skill
 that will help you debug and fix real issues in professional situations.
+
+Explore [PyPI](https://pypi.org), the Python Package Index - this is where
+`pip` (the official base Python package installer, which both Anaconda and
+`pipenv` build on) gets things from by default. If you're interested in
+publishing your own Python packages, sign up for an account!
