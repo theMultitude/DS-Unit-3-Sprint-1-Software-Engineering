@@ -28,6 +28,12 @@ students will have.
 
 ## Resources and Stretch Goals
 
+If your local installation isn't working, you can use the [Play with Docker
+Classroom](https://training.play-with-docker.com/) - a Docker Hub account will
+let you try Docker and spin up containers from your browser. They are
+*temporary* (will go away when you leave the page), and editing the `Dockerfile`
+will be a bit cumbersome, but we'll show how to in class.
+
 The [official Docker documentation](https://docs.docker.com/) is extremely
 thorough and worth checking out. For a particular stretch goal, explore
 [Docker Compose](https://docs.docker.com/compose/), a powerful approach to
