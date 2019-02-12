@@ -51,6 +51,10 @@ dependencies. There's still value in a package that encapsulates more
 complicated libraries and exposes streamlined functionality with a simplified
 API.
 
+Also note - there's a lot more than 2 ideas above. Throughout the week, whenever
+you have finished the daily assignment baseline, you can always come back and
+add more functionality to your `lambdata` (including ideas of your own)!
+
 ## Resources and Stretch Goals
 
 The [official Python packaging tutorial](https://packaging.python.org/tutorials/packaging-projects/)
