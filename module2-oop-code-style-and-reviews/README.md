@@ -50,6 +50,12 @@ The objectives to evaluate are as described in the prior module (`lambdata`
 package with at least 2 helper functions, published on test PyPI). If they meet
 the requirements it is a 2, exceed is a 3, and don't meet is a 1.
 
+Considerations to keep in mind while doing a code review:
+- Can you follow the code flow/layout?
+- Can you understand the logic/reasoning for what it is doing?
+- Could you build with (`import` and use) or extend on it (as a developer adding
+  more to the codebase)?
+
 For comments and notes, focus on style and design. Find at least *2* things to
 compliment and at least *1* constructive criticism. It's also great to learn
 things from their code, and ask questions if there's something you don't
@@ -57,7 +63,10 @@ understand. Good code isn't clever - it's clear!
 
 ## Resources and Stretch Goals
 
-Many organizations create their own "flavor" of style guides - for an example,
+If you have trouble getting a PEP8 tool working in your local environment, you
+can use [PEP8 online](http://pep8online.com/) to check code.
+
+Also, many organizations create their own "flavor" of style guides - for an example,
 read the
 [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
 
