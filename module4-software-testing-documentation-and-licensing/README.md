@@ -2,6 +2,8 @@
 
 ## Learning Objectives
 
+## Before Lecture
+
 ## Live Lecture Task
 
 ## Assignment
