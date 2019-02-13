@@ -3,7 +3,7 @@
 ## Learning Objectives
 
 - Launch Docker containers and access/execute programs on them
-- Create/custmoize a Dockerfile to build a basic custom container
+- Create/customize a Dockerfile to build a basic custom container
 
 ## Before Lecture
 
