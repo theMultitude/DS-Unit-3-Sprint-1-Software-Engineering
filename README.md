@@ -9,8 +9,8 @@ put it in a *package* - like numpy, pandas, and the other great tools we depend
 on.
 
 A full production-grade library is a large undertaking, but this week we will
-build our own modest but still useful package with utility functions useful for
-common data science tasks. Behold, **lambdata**!
+build our own modest but still useful package with utility functions for common
+data science tasks. Behold, **lambdata**!
 
 ![Lamb](./lamb.jpg)
 
