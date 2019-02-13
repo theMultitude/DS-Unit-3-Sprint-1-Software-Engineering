@@ -38,3 +38,7 @@ The [official Docker documentation](https://docs.docker.com/) is extremely
 thorough and worth checking out. For a particular stretch goal, explore
 [Docker Compose](https://docs.docker.com/compose/), a powerful approach to
 combining containers (e.g. you can run a local webapp and database together).
+
+Want to better understand the difference between VMs ("heavy") and containers
+("light")? [This blog post](https://www.backblaze.com/blog/vm-vs-containers/)
+highlights and summarizes the benefits and use cases of both.
