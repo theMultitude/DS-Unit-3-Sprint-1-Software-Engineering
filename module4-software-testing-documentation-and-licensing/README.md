@@ -39,6 +39,7 @@ well!
 
 Spruce up `lambdata`!
 
+- Add at least one basic `unittest` to `lambdata`
 - Make sure there are docstrings wherever PEP 8 demands
 - Write a high-quality `README.md` that is both skimmable and has appropriate
   reference/details/links for someone who wants to understand your code
