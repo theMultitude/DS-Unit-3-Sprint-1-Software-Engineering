@@ -4,11 +4,11 @@ class Product(object):
     """
     import random
     ri = random.randint(1000000, 9999999)
-    def __init__(self, name, price=10, weight=20, flamability=0.5, identifier=ri):
+    def __init__(self, name, price=10, weight=20, flammability=0.5, identifier=ri):
         self.name=name
         self.price=price
         self.weight=weight
-        self.flamability=flamability
+        self.flammability=flammability
         self.identifier=identifier
 
     def stealability(self):
@@ -22,7 +22,7 @@ class Product(object):
             return strA[2]
 
     def explode(self):
-        y = (self.flamability)*(self.weight)
+        y = (self.flammability)*(self.weight)
         strA = ["...fizzle", "...boom!", "...BABOOM!"]
         if(y < 10):
             return strA[0]
@@ -34,11 +34,11 @@ class Product(object):
 class BoxingGlove(Product):
     import random
     ri = random.randint(1000000, 9999999)
-    def __init__(self, name, price=10, weight=10, flamability=0.5, identifier=ri):
+    def __init__(self, name, price=10, weight=10, flammability=0.5, identifier=ri):
         self.name=name
         self.price=price
         self.weight=weight
-        self.flamability=flamability
+        self.flammability=flammability
         self.identifier=identifier
 
     def explode(self):
