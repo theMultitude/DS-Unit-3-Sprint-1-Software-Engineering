@@ -41,11 +41,6 @@ in case of odd numbers), and share your `lambdata` repo with each other. Read
 and review their code, and also check that they have published their package to
 test PyPI and that it can be installed and used.
 
-Read the [Lambda School Peer Code Review
-Checklist](https://github.com/LambdaSchool/Peer-Code-Review-Checklist)
-and [fill out the review form](https://airtable.com/shrVBzrhkcT6GqExr) for your
-peer.
-
 The objectives to evaluate are as described in the prior module (`lambdata`
 package with at least 2 helper functions, published on test PyPI). If they meet
 the requirements it is a 2, exceed is a 3, and don't meet is a 1.
@@ -60,6 +55,12 @@ For comments and notes, focus on style and design. Find at least *2* things to
 compliment and at least *1* constructive criticism. It's also great to learn
 things from their code, and ask questions if there's something you don't
 understand. Good code isn't clever - it's clear!
+
+To turn in your code review, you should fork the repo you are reviewing, add a
+file named `review.md` with your comments, and open a pull request so your peer
+can receive it. You can optionally try [GitHub code review functionality](
+https://github.com/features/code-review/), or use comments in the PR to discuss
+and iterate.
 
 ## Resources and Stretch Goals
 
