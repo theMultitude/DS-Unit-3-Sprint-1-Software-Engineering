@@ -277,9 +277,17 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+  A code review helps ensure new insight from existing knowledge. The most
+  important part is identifying obvious logic errors.
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+  Containers are an object that holds a number of other objects. They provide a 
+  way to access the contained objects and to iterate over them. Examples built-in
+  containers include tuple, list, set, dict. 
 ​
 Answer both of these questions (baseline ~5 sentences) here in text.
 ​
@@ -293,4 +301,3 @@ work!
 *Bonus!* Got this far? Read up on the [history of the fine Acme
 Corporation](https://en.wikipedia.org/wiki/Acme_Corporation), with decades of
 quality products and many satisfied customers (mostly coyotes).
-Shared in
