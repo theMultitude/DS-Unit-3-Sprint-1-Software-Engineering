@@ -186,6 +186,22 @@ Average flammability: 1.258097155966675
 It's OK for the specifics to vary (how you message/format), but it should output
 and clearly identify all four relevant numbers.
 ​
+*Hint* - a great way to figure out how many unique things you have is to use a
+[set](https://docs.python.org/3.8/library/stdtypes.html#set-types-set-frozenset)
+(a collection where all items are unique, and inserting an existing item just
+doesn't do anything).
+```
+>>> s = set()
+>>> s.add(1)
+>>> s.add(2)
+>>> s
+{1, 2}
+>>> s.add(3)
+>>> s.add(1)
+>>> s
+{1, 2, 3}
+```
+​
 ### Part 5 - Measure twice, Test once
 ​
 Make a file `acme_test.py` starting from the following code:
@@ -261,15 +277,9 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
-​
-An important part of code reviews is to have a peer look over your code for readability and flow, ensuring PEP8 guidelines are being followed. A code review is also important to ensure your files are well organized, the code and test files can run without errors. Finally, a code review is best done keeping in mind that the written code can be used in the future whether to revisit, or for another contribitor to build on. When doing a code review I ensuring all code is corrrectly formatted for functionality and readability, following PEP8 guidelines and appreciate and welcome criticism when my code is reviewed in the same way. 
-​
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
-​
-In this case a container would be best utilized by isolating the "things" running on all of the computers. Utilizing a container one could make code changes and additions as well as start over without causing a negative impact due to the isolated environment. Containers serve a great purpose of containing packages, which contain classes, which contain objects. By using containers you can keep "things" better organized and in a safe isolated environment should an error occur. 
-​
 ​
 Answer both of these questions (baseline ~5 sentences) here in text.
 ​
@@ -283,3 +293,4 @@ work!
 *Bonus!* Got this far? Read up on the [history of the fine Acme
 Corporation](https://en.wikipedia.org/wiki/Acme_Corporation), with decades of
 quality products and many satisfied customers (mostly coyotes).
+Shared in
